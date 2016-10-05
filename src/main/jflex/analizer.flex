@@ -25,6 +25,7 @@ OP=["+","-","*","/","%","==","!=",">",">=","<","<=","&&","||"]
 KW="skip"|"write"|"read"|"while"|"do"|"then"|"else"|"if"
 %%
 <YYINITIAL> {
+  ":=" {return (Yytoken)(new OpToken("Assignment", yyline,yycolumn,yycolumn+1));}
   ":" { return (Yytoken)(new SemicolonToken(yyline,yycolumn,yycolumn)); }
   ";" { return (Yytoken)(new ColonToken(yyline,yycolumn,yycolumn)); }
   "(" { return (Yytoken)(new LeftParenToken(yyline,yycolumn,yycolumn)); }

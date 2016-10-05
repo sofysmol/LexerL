@@ -46,7 +46,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>App</mainClass>
+                            <mainClass>sofysmo.lexerl.App</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
