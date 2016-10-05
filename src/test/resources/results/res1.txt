@@ -1,1 +1,1 @@
-KW_Read(0;0;4);Var("x";0;5;6);Colon(0;6;6);KW_If(0;7;9);Var("y";0;10;11);Op(Plus;0;12;12);Num(17;0;14;16);Op(Eq;0;17;17);Op(Eq;0;18;18);Var("x";0;20;21);KW_Then(0;22;26);KW_Write(0;27;32);Var("y";0;33;34);KW_Else(0;35;39);KW_Skip(0;40;44);
+KW_Read(0;0;4);Var("x";0;5;6);Colon(0;6;6);KW_If(0;7;9);Left_Paren(0;10;10);Var("y";0;11;12);Op(Plus;0;13;13);Num(17;0;15;17);Right_Paren(0;17;17);Op(Eq;0;19;19);Op(Eq;0;20;20);Var("x";0;22;23);KW_Then(0;24;28);KW_Write(0;29;34);Var("y";0;35;36);KW_Else(0;37;41);KW_Skip(0;42;46);

@@ -49,9 +49,8 @@
                             <mainClass>App</mainClass>
                         </manifest>
                     </archive>
-
                     <descriptorRefs>
-                        <descriptorRef>jarjk</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
 
                 </configuration>

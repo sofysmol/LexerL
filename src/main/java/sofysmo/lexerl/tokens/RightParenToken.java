@@ -3,7 +3,7 @@ package sofysmo.lexerl.tokens;
 /**
  * Created by sofysmo on 03.10.16.
  */
-public class RightParenToken {
+public class RightParenToken implements Yytoken {
     public int line;
     public int charBegin;
     public int charEnd;
@@ -16,6 +16,6 @@ public class RightParenToken {
     @Override
     public String toString()
     {
-        return "LeftParen(" + line + ";"+charBegin + ";" + charEnd;
+        return "Right_Paren(" + line + ";"+charBegin + ";" + charEnd + ");";
     }
 }

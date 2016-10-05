@@ -16,6 +16,6 @@ public class LeftParenToken implements Yytoken {
     @Override
     public String toString()
     {
-        return "LeftParen(" + line + ";"+charBegin + ";" + charEnd;
+        return "Left_Paren(" + line + ";"+charBegin + ";" + charEnd + ");";
     }
 }
