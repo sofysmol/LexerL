@@ -6,6 +6,8 @@ import java.io.*;
 /**
  * Created by sofysmo on 03.10.16.
  */
+//ONELINE_COMMENT_TEXT=([^/\n]|[^/\n]"/"[^/\n])+
+//MULTILINE_COMMENT_TEXT=([^*/\n]|[^*\n]"/"[^*\n]|[^/\n]"*"[^/\n]|"*"[^/\n]|"/"[^*\n])+
 public class App {
     public static void main(String[] argv){
         try {

@@ -1,0 +1,1 @@
+KW_Read(0;0;3);Var("x";0;5;5);Colon(0;6;6);KW_If(1;0;1);Var("y";1;3;3);Op(Plus;1;5;5);Num(17;1;7;8);Op(Eq;1;10;10);Op(Eq;1;11;11);Var("x";1;13;13);Comment("then write y";2;5;2;15);KW_Else(3;3;6);KW_Skip(3;8;11);Op(Mod;3;12;12);

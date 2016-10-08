@@ -1,0 +1,5 @@
+KW_Read(0;0;3);Var("x";0;5;5);Colon(0;6;6);Comment(" (*
+
+if y + 17 == x
+    then write y
+   else skip";1;0;5;11);KW_While(6;0;4);Left_Paren(6;6;6);Num(3;6;7;7);Right_Paren(6;8;8);KW_Do(6;10;11);Var("x";6;13;13);Op(Assignment;6;14;15);Num(6;6;16;16);
