@@ -3,7 +3,15 @@ This is a console application that demonstrates the working of Lexer for a langu
 ### Languege L
 X - countably infinite set of variables
 
-&otimes; = {+, −, ∗, /, %, ==, !=, >, >=, <, <=, &&, ||}
+&otimes; = {+, −, ∗, /, %, ==, !=, >, >=, <, <=, &&, ||,**}
+Comments: 
+
+```
+    //oneline comment
+    (*
+     multiline comment
+    *)
+```
 
   - Expression: E=X &cup; &#x2115; &cup; (E &otimes; E). In expressions you can use parentheses.
   - Operators: S = skip &cup; X := E ∪ S ; S ∪ write E ∪ read E ∪ while E do S ∪
