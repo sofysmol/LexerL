@@ -37,8 +37,8 @@ MULTILINE_COMMENT_TEXT=([^*)]|"*"[^)])+
   ":=" {return (Yytoken)(new OpToken("Assignment", yyline,yycolumn,yycolumn+1));}
   ":" { return (Yytoken)(new SemicolonToken(yyline,yycolumn,yycolumn)); }
   ";" { return (Yytoken)(new ColonToken(yyline,yycolumn,yycolumn)); }
-  "(" { return (Yytoken)(new LeftParenToken(yyline,yycolumn,yycolumn)); }
-  ")" { return (Yytoken)(new RightParenToken(yyline,yycolumn,yycolumn)); }
+  "(" { return (Yytoken)(new LBracket(yyline,yycolumn,yycolumn)); }
+  ")" { return (Yytoken)(new RBracket(yyline,yycolumn,yycolumn)); }
   "+" { return (Yytoken)(new OpToken("Plus",yyline,yycolumn,yycolumn)); }
   "-" { return (Yytoken)(new OpToken("Minus",yyline,yycolumn,yycolumn)); }
   "*" { return (Yytoken)(new OpToken("Mult",yyline,yycolumn,yycolumn)); }

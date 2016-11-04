@@ -3,11 +3,11 @@ package sofysmo.lexerl.tokens;
 /**
  * Created by sofysmo on 03.10.16.
  */
-public class LeftParenToken implements Yytoken {
+public class LBracket implements Yytoken {
     private int line;
     private int charBegin;
     private int charEnd;
-    public LeftParenToken(int line, int charBegin, int charEnd)
+    public LBracket(int line, int charBegin, int charEnd)
     {
         this.line = line;
         this.charBegin = charBegin;
@@ -16,7 +16,7 @@ public class LeftParenToken implements Yytoken {
     @Override
     public String toString()
     {
-        return "Left_Paren(" + line + ";"+charBegin + ";" + charEnd + ");";
+        return "LBracket(" + line + ";"+charBegin + ";" + charEnd + ");";
     }
 
     public int getLine() {
