@@ -46,10 +46,13 @@ $ mvn install
  - Change directory on "target"
  - run lexerl-1.0-SNAPSHOT-jar-with-dependencies.jar
 unfiltered comments mode
+
  ```sh
  $ java -jar  lexerl-1.0-SNAPSHOT-jar-with-dependencies.jar filepath
  ```
+ 
  or filtered comments mode
+ 
  ```sh
  $ java -jar  lexerl-1.0-SNAPSHOT-jar-with-dependencies.jar -filter filepath
  ```
